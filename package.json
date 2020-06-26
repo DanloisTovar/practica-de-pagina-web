@@ -4,7 +4,8 @@
   "description": " pagina web 2 practica con node",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/js/app.js",
+    "dev": "nodemon src/js/app.js"
   },
   "author": "Danlois Tovar",
   "license": "MIT",
@@ -12,5 +13,8 @@
     "ejs": "^3.1.3",
     "express": "^4.17.1",
     "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
