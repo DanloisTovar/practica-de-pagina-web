@@ -27,6 +27,10 @@ app.use(require('../routers/router'));
 //--------------------------------------------------------------
 
 // static folder (carpetas estaticas):
+//aca se define la direccion de la carpeta "public".
+// para carpeta public (se recomienda crear esta carpeta por convencion):
+
+app.use(express.static(path.join(__dirname, '../public')));
 //--------------------------------------------------------------
 //Puerto escuchando:
 app.listen(app.get('port'), () => {
