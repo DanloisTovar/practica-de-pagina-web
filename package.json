@@ -1,0 +1,11 @@
+{
+  "name": "pagina-web-2",
+  "version": "1.0.0",
+  "description": " pagina web 2 practica con node",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Danlois Tovar",
+  "license": "MIT"
+}
