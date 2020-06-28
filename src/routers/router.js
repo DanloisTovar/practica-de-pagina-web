@@ -5,6 +5,11 @@ const router = express.Router();
 router.get('/', (req, res) => {
   res.render('index.html', { title: 'web 2 desde node' });
 });
+//------------------------------------------
+// Ruta pagina acerca:
+router.get('/acerca', (req, res) => {
+  res.render('acerca.html', { title: 'web 2 desde node' });
+});
 
 //------------------------------------------
 
@@ -13,4 +18,5 @@ router.get('/contacto', (req, res) => {
   res.render('contacto.html', { title: 'web 2 desde node' });
 });
 
+//------------------------------------------
 module.exports = router;
