@@ -11,3 +11,8 @@ body {
     #00b4db
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+#tiburon {
+  margin-top: 7rem;
+  width: 50%;
+}
