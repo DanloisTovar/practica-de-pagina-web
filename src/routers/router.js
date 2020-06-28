@@ -6,12 +6,6 @@ router.get('/', (req, res) => {
   res.render('index.html', { title: 'web 2 desde node' });
 });
 //------------------------------------------
-// Ruta pagina acerca:
-router.get('/acerca', (req, res) => {
-  res.render('acerca.html', { title: 'web 2 desde node' });
-});
-
-//------------------------------------------
 
 // Ruta pagina contacto:
 router.get('/contacto', (req, res) => {
